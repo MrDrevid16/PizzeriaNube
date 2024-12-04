@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Color de fondo suave */
+  }
+  
+  /* Container Styles */
+  .ordenes-container {
+    background-color: #ffffff; /* Blanco */
+    color: #333333; /* Texto gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: rgb(20, 70, 160); /* Azul */
+  }
+  
+  /* Scrollable List Styles */
+  .ordenes-scrollable {
+    max-height: 400px; /* Ajusta la altura máxima según sea necesario */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9; /* Color de fondo claro para el área de desplazamiento */
+  }
+  
+  /* List Styles */
+  .ordenes-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual Order Item Styles */
+  .orden-item {
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .orden-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Link Styles */
+  .orden-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  /* Order Content Styles */
+  .orden-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .orden-id {
+    font-weight: bold;
+  }
+  
+  .orden-status {
+    font-style: italic;
+  }
+  
+  /* Status Color Styles */
+  .orden-status.en-preparacion {
+    color: orange;
+  }
+  
+  .orden-status.listo-para-recoger-en-tienda {
+    color: green;
+  }
+  
+  .orden-status.orden-recibida-en-tienda {
+    color: blue;
+  }
+  
+  /* Error Styles */
+  .error {
+    color: red;
+    text-align: center;
+  }
+  

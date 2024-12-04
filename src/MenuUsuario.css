@@ -1,0 +1,10 @@
+.menu-option {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+  }
+  
+  .menu-option:hover {
+    background-color: #f3f4f6;
+    color: #1446a0;
+  }
